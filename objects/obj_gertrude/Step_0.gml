@@ -2,7 +2,7 @@
 
 phy_rotation = phy_rotation / 2;
 
-if healthRegenFramesPerHP >= 0 && currentHealth < maxHealth && state = "l"
+if healthRegenFramesPerHP * global.progesterone >= 0 && currentHealth < maxHealth
 {
 	if currentHealthStep < healthRegenFramesPerHP
 	{

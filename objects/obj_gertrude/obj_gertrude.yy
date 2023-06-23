@@ -46,7 +46,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"walkSpeed","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"8","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"maxHealth","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"100","varType":1,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"currentHealth","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"100","varType":1,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"healthRegenFramesPerHP","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"30","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"healthRegenFramesPerHP","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"20","varType":0,},
   ],
   "solid": true,
   "spriteId": {
