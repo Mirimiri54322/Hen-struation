@@ -1,6 +1,9 @@
-/// @description Define movement;
+/// @description Define movement.
 
+// Define general world stuff.
+global.debug = true;
 global.pixelsPerBlock = 16;
+
 global.player = id;
 canJump = false;
 state = "m";

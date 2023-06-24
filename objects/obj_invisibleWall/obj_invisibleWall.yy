@@ -1,8 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_rock",
-  "eventList": [],
+  "name": "obj_invisibleWall",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -22,8 +24,8 @@
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsShapePoints": [
-    {"x":0.0,"y":3.0,},
-    {"x":16.0,"y":3.0,},
+    {"x":0.0,"y":0.0,},
+    {"x":16.0,"y":0.0,},
     {"x":16.0,"y":16.0,},
     {"x":0.0,"y":16.0,},
   ],
@@ -31,8 +33,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_rock",
-    "path": "sprites/spr_rock/spr_rock.yy",
+    "name": "spr_invisibleWall",
+    "path": "sprites/spr_invisibleWall/spr_invisibleWall.yy",
   },
   "spriteMaskId": null,
   "visible": true,
