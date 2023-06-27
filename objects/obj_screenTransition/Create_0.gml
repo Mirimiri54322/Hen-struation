@@ -8,3 +8,5 @@ if instance_number(obj_screenTransition) > 1
 
 persistent = true;
 depth = -2000;
+
+hasSwitched = false; // has it switched to the next room yet?

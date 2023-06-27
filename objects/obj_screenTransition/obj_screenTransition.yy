@@ -31,8 +31,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_screenTransition",
-    "path": "sprites/spr_screenTransition/spr_screenTransition.yy",
+    "name": "spr_screenTransitionBlack",
+    "path": "sprites/spr_screenTransitionBlack/spr_screenTransitionBlack.yy",
   },
   "spriteMaskId": null,
   "visible": true,

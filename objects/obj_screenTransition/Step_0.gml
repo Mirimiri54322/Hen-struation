@@ -7,9 +7,10 @@ if camera
 	y = camera.y;
 }
 
-if image_index >= image_number / 2
+if (image_index >= image_number / 2) && !hasSwitched
 {
 	room_goto(destinationRoom);
+	hasSwitched = true;
 }
 
 if image_index >= image_number - 1
