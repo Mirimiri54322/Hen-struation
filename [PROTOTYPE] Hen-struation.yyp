@@ -39,7 +39,7 @@
     {"id":{"name":"spr_levelTransition","path":"sprites/spr_levelTransition/spr_levelTransition.yy",},},
     {"id":{"name":"obj_forestsoil","path":"objects/obj_forestsoil/obj_forestsoil.yy",},},
     {"id":{"name":"obj_healthkitPlaceHolder","path":"objects/obj_healthkitPlaceHolder/obj_healthkitPlaceHolder.yy",},},
-    {"id":{"name":"obj_spikes","path":"objects/obj_spikes/obj_spikes.yy",},},
+    {"id":{"name":"par_spikes","path":"objects/par_spikes/par_spikes.yy",},},
     {"id":{"name":"rm_demo2","path":"rooms/rm_demo2/rm_demo2.yy",},},
     {"id":{"name":"spr_coinPlaceHolder","path":"sprites/spr_coinPlaceHolder/spr_coinPlaceHolder.yy",},},
     {"id":{"name":"obj_levelTransition","path":"objects/obj_levelTransition/obj_levelTransition.yy",},},

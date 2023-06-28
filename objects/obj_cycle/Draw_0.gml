@@ -4,7 +4,7 @@ draw_self();
 draw_sprite_ext(needleSprite, 0, x, y, 1, 1, currentAngle, c_white, 1);
 draw_set_font(fnt_normal);
 draw_set_color(c_white);
-if global.player.state == "l"
+if global.state == "l"
 {
 	draw_set_color(c_lime);
 }

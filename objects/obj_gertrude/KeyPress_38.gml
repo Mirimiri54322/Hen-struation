@@ -1,6 +1,6 @@
 /// @description Jump
 
-if canJump || state == "o"
+if canJump || global.state == "o"
 {
 	MoveUp();
 }

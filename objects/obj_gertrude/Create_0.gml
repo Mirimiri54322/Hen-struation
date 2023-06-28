@@ -1,17 +1,9 @@
 /// @description Define movement and attributes.
 
 // Define general world stuff.
-// TODO a lot of this should move from here to some single-shot entity somewhere
-// Ya know? No need to  have this happen every single time a level loads.
-global.debug = true;
-global.pixelsPerBlock = 16;
 global.player = id;
-global.state = "m";
-global.estrogen = 0;
-global.follicleStimulatingHormone = 0;
-global.luteinizingHormone = 0;
-global.progesterone = 0;
 
+// Stuff for getting the player set up in the level.
 canJump = false;
 currentHealthStep = 0;
 depth = -100;
@@ -56,7 +48,7 @@ function MoveUp()
 /// @description Regenerate health according to global level of progesterone.
 function RegenHealth()
 {
-	if healthRegenFramesPerHP * global.progesterone >= 0 && currentHealth < maxHealth
+	if healthRegenFramesPerHP * global.progesterone > 0 && currentHealth < maxHealth
 	{
 		if currentHealthStep < healthRegenFramesPerHP
 		{
@@ -69,6 +61,8 @@ function RegenHealth()
 		}
 	}
 
+	// You're dead, you're dead, you're dead,
+	// You're dead and outta this world.
 	if currentHealth <= 0
 	{
 		SwitchToRoom(room); // TODO maybe add a death exit sound?

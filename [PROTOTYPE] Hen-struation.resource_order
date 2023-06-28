@@ -21,7 +21,7 @@
     {"name":"spr_levelTransition","order":6,"path":"sprites/spr_levelTransition/spr_levelTransition.yy",},
     {"name":"obj_forestsoil","order":10,"path":"objects/obj_forestsoil/obj_forestsoil.yy",},
     {"name":"obj_healthkitPlaceHolder","order":13,"path":"objects/obj_healthkitPlaceHolder/obj_healthkitPlaceHolder.yy",},
-    {"name":"obj_spikes","order":3,"path":"objects/obj_spikes/obj_spikes.yy",},
+    {"name":"par_spikes","order":3,"path":"objects/par_spikes/par_spikes.yy",},
     {"name":"rm_demo2","order":1,"path":"rooms/rm_demo2/rm_demo2.yy",},
     {"name":"spr_coinPlaceHolder","order":15,"path":"sprites/spr_coinPlaceHolder/spr_coinPlaceHolder.yy",},
     {"name":"obj_levelTransition","order":4,"path":"objects/obj_levelTransition/obj_levelTransition.yy",},
