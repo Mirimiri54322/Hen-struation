@@ -12,7 +12,7 @@ switch currentDay
 {
 	// periodt.
 	case 0:
-		global.player.state = "m";
+		global.state = "m";
 		global.player.jumpSpeed = 14; // 2 blocks
 		global.estrogen = 0.15;
 		global.follicleStimulatingHormone = 0.18;
@@ -50,7 +50,7 @@ switch currentDay
 	
 	// follicular phase
 	case 5:
-		global.player.state = "f";
+		global.state = "f";
 		global.estrogen = 0.24;
 		global.follicleStimulatingHormone = 0.05;
 		global.luteinizingHormone = 0.01;
@@ -94,7 +94,7 @@ switch currentDay
 	
 	// ovulation
 	case 11:
-		global.player.state = "o";
+		global.state = "o";
 		global.estrogen = 1.00;
 		global.follicleStimulatingHormone = 0.92;
 		global.luteinizingHormone = 0.90;
@@ -131,7 +131,7 @@ switch currentDay
 	
 	// luteal
 	case 16:
-		global.player.state = "l";
+		global.state = "l";
 		global.estrogen = 0.51;
 		global.follicleStimulatingHormone = 0.35;
 		global.luteinizingHormone = 0.15;

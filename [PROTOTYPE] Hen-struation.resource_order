@@ -19,7 +19,7 @@
   "ResourceOrderSettings": [
     {"name":"obj_titleButton","order":7,"path":"objects/obj_titleButton/obj_titleButton.yy",},
     {"name":"spr_levelTransition","order":6,"path":"sprites/spr_levelTransition/spr_levelTransition.yy",},
-    {"name":"par_forestsoil","order":10,"path":"objects/par_forestsoil/par_forestsoil.yy",},
+    {"name":"obj_forestsoil","order":10,"path":"objects/obj_forestsoil/obj_forestsoil.yy",},
     {"name":"obj_healthkitPlaceHolder","order":13,"path":"objects/obj_healthkitPlaceHolder/obj_healthkitPlaceHolder.yy",},
     {"name":"obj_spikes","order":3,"path":"objects/obj_spikes/obj_spikes.yy",},
     {"name":"rm_demo2","order":1,"path":"rooms/rm_demo2/rm_demo2.yy",},
@@ -43,7 +43,7 @@
     {"name":"spr_buttonPlaceholder","order":10,"path":"sprites/spr_buttonPlaceholder/spr_buttonPlaceholder.yy",},
     {"name":"obj_cycle","order":2,"path":"objects/obj_cycle/obj_cycle.yy",},
     {"name":"spr_doorcontrolPlaceHolder","order":17,"path":"sprites/spr_doorcontrolPlaceHolder/spr_doorcontrolPlaceHolder.yy",},
-    {"name":"par_forestground","order":9,"path":"objects/par_forestground/par_forestground.yy",},
+    {"name":"obj_forestground","order":9,"path":"objects/obj_forestground/obj_forestground.yy",},
     {"name":"spr_arrowlauncherPlaceHolder","order":18,"path":"sprites/spr_arrowlauncherPlaceHolder/spr_arrowlauncherPlaceHolder.yy",},
     {"name":"rm_template","order":2,"path":"rooms/rm_template/rm_template.yy",},
     {"name":"spr_gertrude","order":1,"path":"sprites/spr_gertrude/spr_gertrude.yy",},
