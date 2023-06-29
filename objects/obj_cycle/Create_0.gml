@@ -1,5 +1,6 @@
 /// @description Initialize
-
+// Set to first image
+image_index = 0;
 // Make it appear on top of other game stuff
 depth = -1000
 
