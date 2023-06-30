@@ -6,10 +6,10 @@ if instance_number(obj_screenTransition) > 1
 	instance_destroy(id);
 }
 
-if global.debug
-{
-	image_alpha = 0;
-}
+// if global.debug
+// {
+	// image_alpha = 0;
+// }
 persistent = true;
 depth = -2000;
 
