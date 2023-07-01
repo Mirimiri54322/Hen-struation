@@ -17,7 +17,7 @@ function AdjustAttributesFromHormones()
 	healthRegenFramesPerHP = -1;
 	if global.progesterone > 0
 	{
-		healthRegenFramesPerHP = 20 / global.progesterone;
+		healthRegenFramesPerHP = 15 / global.progesterone;
 	}
 }
 
@@ -48,12 +48,14 @@ function MoveUp()
 /// @description Regenerate health according to global level of progesterone.
 function RegenHealth()
 {
-	if healthRegenFramesPerHP * global.progesterone > 0 && currentHealth < maxHealth
+	if healthRegenFramesPerHP > 0 && currentHealth < maxHealth
 	{
+		// Wait another frame.
 		if currentHealthStep < healthRegenFramesPerHP
 		{
 			currentHealthStep += 1;
 		}
+		// Regen 1 health and reset waiting.
 		else
 		{
 			currentHealthStep = 0;

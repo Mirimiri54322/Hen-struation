@@ -4,32 +4,33 @@
 /// for the given hormone out of the maximum value
 /// with the specified text and in the specified color.
 /// Returns the rightmost x endpoint of the bar drawn.
-function DrawBar(stat, statMax, xPos, yPos, text = "", color = c_white)
+function DrawBar(stat, statMax, xPos, yPos, text = "", outlineColor = c_black, fillColor = c_grey, textColor = c_white)
 {
-	x1 = xPos;
-	y1 = yPos;
-	x2 = xPos + 2 * global.pixelsPerBlock;
-	y2 = yPos + 0.5 * global.pixelsPerBlock;
+	var x1 = xPos;
+	var y1 = yPos;
+	var x2 = xPos + 2 * global.pixelsPerBlock;
+	var y2 = yPos + 0.5 * global.pixelsPerBlock;
 	
 	// Draw the background of the bar.
-	draw_set_color(3346705);
-	draw_rectangle(x1, y1, x2, y2, false);
+	draw_set_color(outlineColor);
+	draw_rectangle(x1 + 1, y1, x2 - 1, y2, false);
+	draw_rectangle(x1, y1 + 1, x2, y2 - 1, false);
 	
 	// Draw the filled part of the bar.
-	draw_set_color(color);
+	draw_set_color(fillColor);
 	draw_rectangle(x1 + 1, y1 + 1, clamp(x1 + (x2 - x1) * (stat / statMax) - 1, x1, x2), y2 - 1, false);
 	
 	// Draw the shadow of the text label of the bar.
-	draw_set_font(fnt_stats);
-	draw_set_color(3346705);
-	draw_text(x1 + 1, y1 + 0, text);
-	draw_text(x1 + 0, y1 + 1, text);
-	draw_text(x1 + 2, y1 + 1, text);
-	draw_text(x1 + 1, y1 + 2, text);
+	// draw_set_font(fnt_stats);
+	// draw_set_color(outlineColor);
+	// draw_text(x1 + 1, y1 + 0, text);
+	// draw_text(x1 + 0, y1 + 1, text);
+	// draw_text(x1 + 2, y1 + 1, text);
+	// draw_text(x1 + 1, y1 + 2, text);
 	
 	// Draw the text label of the bar
 	draw_set_font(fnt_stats);
-	draw_set_color(14548991);
+	draw_set_color(textColor);
 	draw_text(x1 + 1, y1 + 1, text);
 	
 	return x2;

@@ -78,6 +78,7 @@
     {"id":{"name":"spr_buttonPlaceholder","path":"sprites/spr_buttonPlaceholder/spr_buttonPlaceholder.yy",},},
     {"id":{"name":"fnt_stats","path":"fonts/fnt_stats/fnt_stats.yy",},},
     {"id":{"name":"obj_cycle","path":"objects/obj_cycle/obj_cycle.yy",},},
+    {"id":{"name":"scr_colors","path":"scripts/scr_colors/scr_colors.yy",},},
     {"id":{"name":"spr_doorcontrolPlaceHolder","path":"sprites/spr_doorcontrolPlaceHolder/spr_doorcontrolPlaceHolder.yy",},},
     {"id":{"name":"obj_forestground","path":"objects/obj_forestground/obj_forestground.yy",},},
     {"id":{"name":"par_block","path":"objects/par_block/par_block.yy",},},
