@@ -1,10 +1,14 @@
 /// @description Draw UI.
 
-draw_self();
-draw_sprite_ext(needleSprite, 0, x, y, 1, 1, currentAngle, c_white, 1);
+var camera = view_get_camera(view_current);
+
+var dialX = camera_get_view_x(camera) + camera_get_view_width(camera) - sprite_width / 2;
+var dialY = camera_get_view_y(camera) + sprite_height / 2;
+
+draw_sprite(spr_cycle, image_index, dialX, dialY);
+draw_sprite_ext(needleSprite, 0, dialX, dialY, 1, 1, currentAngle, c_white, 1);
 
 // Define starting point and buffer for row of stats.
-var camera = view_get_camera(view_current);
 var topLeftX = camera_get_view_x(camera);
 var topLeftY = camera_get_view_y(camera);
 var bufferAmount = 0.25 * global.pixelsPerBlock;

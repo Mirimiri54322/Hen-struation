@@ -66,7 +66,6 @@
     {"name":"par_block","order":2,"path":"objects/par_block/par_block.yy",},
     {"name":"obj_signGeneral","order":6,"path":"objects/obj_signGeneral/obj_signGeneral.yy",},
     {"name":"spr_arrowLauncher","order":1,"path":"sprites/spr_arrowLauncher/spr_arrowLauncher.yy",},
-    {"name":"scr_getHormones","order":1,"path":"scripts/scr_getHormones/scr_getHormones.yy",},
     {"name":"rm_template","order":2,"path":"rooms/rm_template/rm_template.yy",},
     {"name":"spr_gertrude","order":1,"path":"sprites/spr_gertrude/spr_gertrude.yy",},
     {"name":"spr_soil","order":2,"path":"sprites/spr_soil/spr_soil.yy",},

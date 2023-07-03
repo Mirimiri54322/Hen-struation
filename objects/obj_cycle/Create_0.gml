@@ -36,6 +36,13 @@ function DrawBar(stat, statMax, xPos, yPos, text = "", outlineColor = c_black, f
 	return x2;
 }
 
+// Only one of these should ever exist at a time.
+if instance_number(obj_cycle) > 1
+{
+	// If it discovers it's not the original, it destroys itself.
+	instance_destroy();
+}
+
 // Set to first image
 image_index = 0;
 // Make it appear on top of other game stuff

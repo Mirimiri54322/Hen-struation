@@ -96,7 +96,6 @@
     {"id":{"name":"par_block","path":"objects/par_block/par_block.yy",},},
     {"id":{"name":"obj_signGeneral","path":"objects/obj_signGeneral/obj_signGeneral.yy",},},
     {"id":{"name":"spr_arrowLauncher","path":"sprites/spr_arrowLauncher/spr_arrowLauncher.yy",},},
-    {"id":{"name":"scr_getHormones","path":"scripts/scr_getHormones/scr_getHormones.yy",},},
     {"id":{"name":"rm_template","path":"rooms/rm_template/rm_template.yy",},},
     {"id":{"name":"spr_gertrude","path":"sprites/spr_gertrude/spr_gertrude.yy",},},
     {"id":{"name":"spr_soil","path":"sprites/spr_soil/spr_soil.yy",},},
