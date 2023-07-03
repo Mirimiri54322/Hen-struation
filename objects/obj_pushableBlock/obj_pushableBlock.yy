@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Interactive",
+    "path": "folders/Objects/Interactive.yy",
   },
   "parentObjectId": {
     "name": "par_block",

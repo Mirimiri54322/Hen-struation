@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Hazards",
+    "path": "folders/Objects/Hazards.yy",
   },
   "parentObjectId": {
     "name": "par_spikes",
