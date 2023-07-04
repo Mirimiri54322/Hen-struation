@@ -45,6 +45,20 @@ function MoveUp()
 	canJump = false;
 }
 
+function Jump()
+{
+	if canJump || global.state == "o"
+	{
+		MoveUp();
+	}
+}
+
+/// @description Stop moving left or right.
+function StopWalking()
+{
+	phy_linear_velocity_x = inertia / phy_linear_velocity_x;
+}
+
 /// @description Regenerate health according to global level of progesterone.
 function RegenHealth()
 {
