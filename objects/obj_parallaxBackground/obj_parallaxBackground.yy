@@ -36,6 +36,10 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"frontSprite","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"noone","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"backFog","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":1.0,"rangeMin":0.0,"value":"0.2","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"middleFog","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":1.0,"rangeMin":0.0,"value":"0.1","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"frontFog","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":1.0,"rangeMin":0.0,"value":"0.1","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"fogColor","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"palette.blue4","varType":4,},
   ],
   "solid": false,
   "spriteId": {
