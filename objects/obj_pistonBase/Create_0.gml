@@ -1,2 +1,2 @@
 /// @description change changed flag
-changed = true;
+alarm[0] = room_speed * 2; //every 2 seconds

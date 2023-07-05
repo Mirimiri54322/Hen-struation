@@ -5,7 +5,7 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_gertrude","path":"objects/obj_gertrude/obj_gertrude.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -26,10 +26,10 @@
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsShapePoints": [
-    {"x":1.0,"y":46.0,},
-    {"x":23.0,"y":46.0,},
-    {"x":23.0,"y":48.0,},
-    {"x":1.0,"y":48.0,},
+    {"x":2.0,"y":0.0,},
+    {"x":22.0,"y":0.0,},
+    {"x":22.0,"y":48.0,},
+    {"x":2.0,"y":48.0,},
   ],
   "physicsStartAwake": true,
   "properties": [],

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_forestground",
+  "name": "obj_forestGround",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -34,8 +34,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_grass",
-    "path": "sprites/spr_grass/spr_grass.yy",
+    "name": "spr_forestGrass",
+    "path": "sprites/spr_forestGrass/spr_forestGrass.yy",
   },
   "spriteMaskId": null,
   "visible": true,

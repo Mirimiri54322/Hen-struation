@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_pistonBase",
-  "bbox_bottom": 9,
+  "bbox_bottom": 13,
   "bbox_left": 0,
   "bbox_right": 23,
   "bbox_top": 0,
@@ -13,6 +13,7 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8e6b7e89-32ab-4c99-a7d4-b0243904ed09",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4a8206db-67f5-445a-b131-0e9852c3091f",},
   ],
   "gridX": 0,
@@ -43,7 +44,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 2.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -54,7 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4a8206db-67f5-445a-b131-0e9852c3091f","path":"sprites/spr_pistonBase/spr_pistonBase.yy",},},},"Disabled":false,"id":"2f1d3aef-33a4-4d81-8ad4-b5649d7ea287","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8e6b7e89-32ab-4c99-a7d4-b0243904ed09","path":"sprites/spr_pistonBase/spr_pistonBase.yy",},},},"Disabled":false,"id":"43beda06-015a-4171-83e4-88b548bff1fa","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4a8206db-67f5-445a-b131-0e9852c3091f","path":"sprites/spr_pistonBase/spr_pistonBase.yy",},},},"Disabled":false,"id":"2f1d3aef-33a4-4d81-8ad4-b5649d7ea287","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
