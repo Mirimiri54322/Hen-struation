@@ -1,2 +1,2 @@
 /// @description Damage player.
-other.currentHealth -= 1;
+other.currentHealth -= 10;

@@ -13,8 +13,8 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ab80c237-8bd8-4537-be72-e9dfb007691d",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4bb5811d-94ad-40fc-87c3-5282beb04060",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"fab9d77c-69f4-4d93-881d-6ec84c7e6943",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4bb5811d-94ad-40fc-87c3-5282beb04060","path":"sprites/spr_soil/spr_soil.yy",},},},"Disabled":false,"id":"e62fdcd3-f603-4cee-8392-042887b5f85a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fab9d77c-69f4-4d93-881d-6ec84c7e6943","path":"sprites/spr_soil/spr_soil.yy",},},},"Disabled":false,"id":"e6c78670-a8ab-45ea-a588-bfa1abf4108a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ab80c237-8bd8-4537-be72-e9dfb007691d","path":"sprites/spr_soil/spr_soil.yy",},},},"Disabled":false,"id":"9cf3e264-f4a6-4af0-ac15-aececfa8966a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4bb5811d-94ad-40fc-87c3-5282beb04060","path":"sprites/spr_soil/spr_soil.yy",},},},"Disabled":false,"id":"e62fdcd3-f603-4cee-8392-042887b5f85a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
