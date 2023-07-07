@@ -15,7 +15,6 @@
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d358179-5f38-463c-987d-cf1ea8d0f228",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0d591bd1-282b-40c4-8944-bb07d7229661",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e9dcafeb-1700-442c-ad70-1f499dcb6bf1",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -45,7 +44,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 3.0,
+    "length": 2.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -58,7 +57,6 @@
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1d358179-5f38-463c-987d-cf1ea8d0f228","path":"sprites/spr_spikesRuin/spr_spikesRuin.yy",},},},"Disabled":false,"id":"68d418d6-3a01-4847-9b65-8ea8ce941b90","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0d591bd1-282b-40c4-8944-bb07d7229661","path":"sprites/spr_spikesRuin/spr_spikesRuin.yy",},},},"Disabled":false,"id":"d015cf98-6a55-4621-9180-77c4f4b487df","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e9dcafeb-1700-442c-ad70-1f499dcb6bf1","path":"sprites/spr_spikesRuin/spr_spikesRuin.yy",},},},"Disabled":false,"id":"bb708354-0314-4770-97a3-b27d36dbd3eb","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

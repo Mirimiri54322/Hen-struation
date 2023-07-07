@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_lvlOne",
-  "bbox_bottom": 999,
+  "bbox_bottom": 1279,
   "bbox_left": 0,
-  "bbox_right": 1999,
+  "bbox_right": 2559,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1000,
+  "height": 1280,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d89aa30e-5c35-46ee-b4b3-778efec699ef","blendMode":0,"displayName":"Layer 3","isLocked":false,"opacity":100.0,"visible":true,},
@@ -73,5 +73,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 2000,
+  "width": 2560,
 }

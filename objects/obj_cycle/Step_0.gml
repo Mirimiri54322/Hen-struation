@@ -1,5 +1,4 @@
 /// @description Update angle and day.
-
 currentAngle = (currentAngle - degreesPerTick) % 360;
 currentDay = currentAngle * 28 / -360;
 var dayY = floor(1 + (currentDay / 28) * (ds_grid_height(global.hormoneTable) - 1));
