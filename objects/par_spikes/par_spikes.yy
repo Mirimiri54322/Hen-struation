@@ -11,7 +11,10 @@
     "name": "Hazards",
     "path": "folders/Objects/Hazards.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_block",
+    "path": "objects/par_block/par_block.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.0,
