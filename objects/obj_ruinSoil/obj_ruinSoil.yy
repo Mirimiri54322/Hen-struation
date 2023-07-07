@@ -34,8 +34,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_ruinSoil",
-    "path": "sprites/spr_ruinSoil/spr_ruinSoil.yy",
+    "name": "spr_peakSoil",
+    "path": "sprites/spr_peakSoil/spr_peakSoil.yy",
   },
   "spriteMaskId": null,
   "visible": true,
