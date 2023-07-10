@@ -160,6 +160,7 @@
     {"id":{"name":"obj_flowers2","path":"objects/obj_flowers2/obj_flowers2.yy",},},
     {"id":{"name":"obj_peakSoil","path":"objects/obj_peakSoil/obj_peakSoil.yy",},},
     {"id":{"name":"obj_V1tree","path":"objects/obj_V1tree/obj_V1tree.yy",},},
+    {"id":{"name":"spr_signBackground","path":"sprites/spr_signBackground/spr_signBackground.yy",},},
     {"id":{"name":"spr_bush2","path":"sprites/spr_bush2/spr_bush2.yy",},},
     {"id":{"name":"spr_screenTransitionBlue","path":"sprites/spr_screenTransitionBlue/spr_screenTransitionBlue.yy",},},
     {"id":{"name":"arrow_trap__3_","path":"sounds/arrow_trap__3_/arrow_trap__3_.yy",},},

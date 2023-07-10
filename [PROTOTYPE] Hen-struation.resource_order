@@ -124,6 +124,7 @@
     {"name":"obj_flowers2","order":1,"path":"objects/obj_flowers2/obj_flowers2.yy",},
     {"name":"obj_peakSoil","order":8,"path":"objects/obj_peakSoil/obj_peakSoil.yy",},
     {"name":"obj_V1tree","order":1,"path":"objects/obj_V1tree/obj_V1tree.yy",},
+    {"name":"spr_signBackground","order":8,"path":"sprites/spr_signBackground/spr_signBackground.yy",},
     {"name":"spr_bush2","order":1,"path":"sprites/spr_bush2/spr_bush2.yy",},
     {"name":"spr_screenTransitionBlue","order":5,"path":"sprites/spr_screenTransitionBlue/spr_screenTransitionBlue.yy",},
     {"name":"arrow_trap__3_","order":10,"path":"sounds/arrow_trap__3_/arrow_trap__3_.yy",},
