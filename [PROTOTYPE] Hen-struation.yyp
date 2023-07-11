@@ -107,6 +107,7 @@
     {"id":{"name":"piston_crush","path":"sounds/piston_crush/piston_crush.yy",},},
     {"id":{"name":"exit_level_sound","path":"sounds/exit_level_sound/exit_level_sound.yy",},},
     {"id":{"name":"spr_spikes","path":"sprites/spr_spikes/spr_spikes.yy",},},
+    {"id":{"name":"rm_ruins","path":"rooms/rm_ruins/rm_ruins.yy",},},
     {"id":{"name":"spr_signEnd","path":"sprites/spr_signEnd/spr_signEnd.yy",},},
     {"id":{"name":"obj_pressurePlate","path":"objects/obj_pressurePlate/obj_pressurePlate.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
@@ -253,6 +254,7 @@
     {"roomId":{"name":"rm_demo2","path":"rooms/rm_demo2/rm_demo2.yy",},},
     {"roomId":{"name":"rm_template","path":"rooms/rm_template/rm_template.yy",},},
     {"roomId":{"name":"rm_test3","path":"rooms/rm_test3/rm_test3.yy",},},
+    {"roomId":{"name":"rm_ruins","path":"rooms/rm_ruins/rm_ruins.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
