@@ -47,7 +47,7 @@ function MoveUp()
 
 function Jump()
 {
-	if canJump || global.state == "o"
+	if canJump || global.estrogen > 0.75
 	{
 		MoveUp();
 	}

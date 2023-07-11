@@ -1,19 +1,8 @@
-/// @description Move the arrow and check for collisions
+/// @description Face direction of moovement. If not moving, disappear.
 
-//Block collisions
-if collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, par_block, false, true)
-{
-    instance_destroy();
-}
+phy_rotation = sqrt(sqr(phy_linear_velocity_x) + sqr(phy_linear_velocity_y));
 
-if alarm[0] > 0
+if (phy_linear_velocity_x == 0) && (phy_linear_velocity_y == 0) && !global.debug
 {
-    x -= 5; // Move left
-    alarm[0]--; // Decrease alarm[0]
-	//If collides with player
-	if collision_line(x, y, x + spr_arrow, y + spr_arrow, obj_gertrude, false, false)
-	{
-        obj_gertrude.currentHealth -= 10; // Decrease player's health
-        instance_destroy(); // Destroy arrow object
-	}
+	instance_destroy();
 }

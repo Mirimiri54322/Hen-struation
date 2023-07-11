@@ -12,8 +12,8 @@
     "path": "folders/Objects/Hazards.yy",
   },
   "parentObjectId": {
-    "name": "par_block",
-    "path": "objects/par_block/par_block.yy",
+    "name": "par_togglable",
+    "path": "objects/par_togglable/par_togglable.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

@@ -24,7 +24,14 @@ else
 	var prevEndpoint = DrawBar(global.player.currentHealth, 100, topLeftX + bufferAmount, topLeftY + bufferAmount, "LIFE", palette.lime2, palette.lime3, palette.lime4);
 }
 // Draw all the hormones.
-prevEndpoint = DrawBar(global.estrogen, 1.0, prevEndpoint + bufferAmount, topLeftY + bufferAmount, "E2", palette.red2, palette.red3, palette.red4);
+if global.estrogen >= 0.75
+{
+	prevEndpoint = DrawBar(global.estrogen, 1.0, prevEndpoint + bufferAmount, topLeftY + bufferAmount, "E2 FLY", palette.red2, palette.red3, palette.red4);
+}
+else
+{
+	prevEndpoint = DrawBar(global.estrogen, 1.0, prevEndpoint + bufferAmount, topLeftY + bufferAmount, "E2", palette.red2, palette.red3, palette.red4);
+}
 prevEndpoint = DrawBar(global.follicleStimulatingHormone, 1.0, prevEndpoint + bufferAmount, topLeftY + bufferAmount, "FSH", palette.blue2, palette.blue3, palette.blue4);
 prevEndpoint = DrawBar(global.luteinizingHormone, 1.0, prevEndpoint + bufferAmount, topLeftY + bufferAmount, "LH", palette.bronze2, palette.bronze3, palette.bronze4);
 prevEndpoint = DrawBar(global.progesterone, 1.0, prevEndpoint + bufferAmount, topLeftY + bufferAmount, "P4", palette.purple2, palette.purple3, palette.purple4);
