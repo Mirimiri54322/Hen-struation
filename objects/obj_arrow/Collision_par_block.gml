@@ -1,5 +1,5 @@
-/// @description be destroyed if not still in launcher.
-if other.id != originLauncher
+/// @description be destroyed
+if other != originLauncher
 {
 	instance_destroy();
 }
