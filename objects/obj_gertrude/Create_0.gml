@@ -81,6 +81,7 @@ function RegenHealth()
 	// You're dead and outta this world.
 	if currentHealth <= 0
 	{
+		sprite_index = spr_gertrudeDeath;
 		SwitchToRoom(room); // TODO maybe add a death exit sound?
 	}
 }

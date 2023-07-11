@@ -33,7 +33,7 @@
   ],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_pistonRuinFull",
     "path": "sprites/spr_pistonRuinFull/spr_pistonRuinFull.yy",
