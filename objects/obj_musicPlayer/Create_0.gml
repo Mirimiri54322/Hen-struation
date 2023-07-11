@@ -19,6 +19,9 @@ function PlaySongForCurrentRoom()
 			nextSong = noone;
 			shouldDestroy = true;
 		break;
+		default:
+			nextSong = mus_offYourFeetTEMP;
+		break;
 	}
 
 	// Play song if new.

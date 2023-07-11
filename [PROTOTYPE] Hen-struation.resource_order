@@ -57,6 +57,7 @@
     {"name":"obj_pistonForestFull","order":2,"path":"objects/obj_pistonForestFull/obj_pistonForestFull.yy",},
     {"name":"spr_pressurePlate","order":4,"path":"sprites/spr_pressurePlate/spr_pressurePlate.yy",},
     {"name":"spr_V2stump","order":2,"path":"sprites/spr_V2stump/spr_V2stump.yy",},
+    {"name":"mus_offYourFeetTEMP","order":13,"path":"sounds/mus_offYourFeetTEMP/mus_offYourFeetTEMP.yy",},
     {"name":"button_click__2_","order":8,"path":"sounds/button_click__2_/button_click__2_.yy",},
     {"name":"spr_levelTransition","order":1,"path":"sprites/spr_levelTransition/spr_levelTransition.yy",},
     {"name":"spr_pistonForestBase","order":6,"path":"sprites/spr_pistonForestBase/spr_pistonForestBase.yy",},
