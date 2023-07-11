@@ -20,7 +20,7 @@
   "physicsFriction": 0.5,
   "physicsGroup": 1,
   "physicsKinematic": false,
-  "physicsLinearDamping": 0.1,
+  "physicsLinearDamping": 1.0,
   "physicsObject": true,
   "physicsRestitution": 0.0,
   "physicsSensor": false,

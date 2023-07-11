@@ -1,3 +1,6 @@
-/// @description Damage player.
+/// @description Damage player if extended.
 
-other.currentHealth -= 1;
+if !isInputActive
+{
+	other.currentHealth -= 1;
+}
