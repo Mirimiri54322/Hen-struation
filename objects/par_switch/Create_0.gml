@@ -6,6 +6,7 @@ function BeActivated()
 {
 	image_index = 1;
 	isActive = true;
+	targetID.isInputActive = true;
 	alarm[0] = room_speed * onTime; // alarm activates in onTime seconds.
 }
 
