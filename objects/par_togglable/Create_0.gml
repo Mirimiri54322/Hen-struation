@@ -1,4 +1,5 @@
 /// @define toggling methods and initialize activity
+/// This parent class is for objects whose state can be toggled by a switch. Like an arrow launcher.
 
 function Activate()
 {

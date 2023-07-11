@@ -246,6 +246,7 @@
     {"name":"inst_766A7FB3","path":"rooms/rm_test1/rm_test1.yy",},
     {"name":"inst_744BB732","path":"rooms/rm_test1/rm_test1.yy",},
     {"name":"inst_7AB7E68C","path":"rooms/rm_test1/rm_test1.yy",},
+    {"name":"inst_2FE29877","path":"rooms/rm_test1/rm_test1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -498,6 +499,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7AB7E68C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_switch","path":"objects/par_switch/par_switch.yy",},"propertyId":{"name":"targetID","path":"objects/par_switch/par_switch.yy",},"value":"inst_73AC2EB",},
           ],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":224.0,"y":128.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2FE29877","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pressurePlate","path":"objects/obj_pressurePlate/obj_pressurePlate.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_switch","path":"objects/par_switch/par_switch.yy",},"propertyId":{"name":"targetID","path":"objects/par_switch/par_switch.yy",},"value":"inst_7674AFF",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":208.0,"y":192.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":15,"SerialiseWidth":54,"TileSerialiseData":[
 6113,6114,6115,6116,6117,6118,6119,6120,6121,6122,6123,6124,6125,6126,6127,6128,6129,6130,6131,6132,6133,6134,6135,6136,6137,6138,6139,6140,6141,6142,6143,6144,6145,6146,6147,6148,6149,6150,6151,6152,6153,6154,6155,6156,6157,6158,6159,4170,4171,4172,4173,4174,4330,4331,
