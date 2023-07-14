@@ -23,34 +23,34 @@ function AdjustAttributesFromHormones()
 }
 
 /// @description Walk left.
-function MoveLeft()
+function MoveLeft(multiplier = 1.0)
 {
 	AdjustAttributesFromHormones();
 	image_xscale = -1;
-	phy_linear_velocity_x = -walkSpeed * global.pixelsPerBlock;
+	phy_linear_velocity_x = -walkSpeed * global.pixelsPerBlock * multiplier;
 }
 
 /// @description Walk right.
-function MoveRight()
+function MoveRight(multiplier = 1.0)
 {
 	AdjustAttributesFromHormones();
 	image_xscale = 1;
-	phy_linear_velocity_x = walkSpeed * global.pixelsPerBlock;
+	phy_linear_velocity_x = walkSpeed * global.pixelsPerBlock * multiplier;
 }
 
 /// @description Move up, as in jumping.
-function MoveUp()
+function MoveUp(multiplier = 1.0)
 {
 	AdjustAttributesFromHormones();
-	phy_linear_velocity_y = -jumpSpeed * global.pixelsPerBlock;
-	canJump = false;
+	phy_linear_velocity_y += -jumpSpeed * global.pixelsPerBlock * multiplier;
 }
 
-function Jump()
+function Jump(multiplier = 1.0)
 {
 	if canJump || global.estrogen > 0.75
 	{
-		MoveUp();
+		MoveUp(multiplier);
+		canJump = false;
 	}
 }
 
@@ -90,7 +90,8 @@ function RegenHealth()
 function TakeDamage(dmgAmount)
 {
 	currentHealth -= dmgAmount;
-	Screenshake(dmgAmount * 10, dmgAmount * 2, 0.5);
+	MoveUp(dmgAmount * 0.05); // tiny jump because they're like, "ouch!"
+	Screenshake(dmgAmount * 0.25, dmgAmount * 0.25, 0.9);
 }
 
 /// @description Switch to death sprite and then restart the room.

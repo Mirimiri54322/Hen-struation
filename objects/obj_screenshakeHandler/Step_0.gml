@@ -3,8 +3,8 @@
 if shake
 {
 	shakeTime -= 1;
-	var xVal = choose(-shakeMagnitude, shakeMagnitude);
-	var yVal = choose(-shakeMagnitude, shakeMagnitude);
+	var xVal = camera_get_view_x(view_camera[0]) + choose(-shakeMagnitude, shakeMagnitude);
+	var yVal = camera_get_view_y(view_camera[0]) + choose(-shakeMagnitude, shakeMagnitude);
 	camera_set_view_pos(view_camera[0], xVal, yVal);
 	
 	if shakeTime <= 0

@@ -2,9 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_spikesPeak",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_gertrude","path":"objects/obj_gertrude/obj_gertrude.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -25,12 +23,12 @@
   "physicsObject": true,
   "physicsRestitution": 0.1,
   "physicsSensor": false,
-  "physicsShape": 1,
+  "physicsShape": 2,
   "physicsShapePoints": [
-    {"x":1.0,"y":2.0,},
-    {"x":15.0,"y":2.0,},
-    {"x":15.0,"y":16.0,},
-    {"x":1.0,"y":16.0,},
+    {"x":0.07122707,"y":15.804469,},
+    {"x":1.8310032,"y":2.9832401,},
+    {"x":13.719273,"y":2.9832401,},
+    {"x":15.831005,"y":15.608939,},
   ],
   "physicsStartAwake": true,
   "properties": [],

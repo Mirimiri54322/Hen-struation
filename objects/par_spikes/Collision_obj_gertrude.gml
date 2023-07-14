@@ -2,5 +2,5 @@
 
 if !isInputActive
 {
-	other.TakeDamage(1);
+	obj_gertrude.TakeDamage(1);
 }

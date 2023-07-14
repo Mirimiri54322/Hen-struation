@@ -2,9 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_spikeRuin",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_gertrude","path":"objects/obj_gertrude/obj_gertrude.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -25,12 +23,12 @@
   "physicsObject": true,
   "physicsRestitution": 0.1,
   "physicsSensor": false,
-  "physicsShape": 1,
+  "physicsShape": 2,
   "physicsShapePoints": [
-    {"x":1.0,"y":2.0,},
-    {"x":15.0,"y":2.0,},
-    {"x":15.0,"y":16.0,},
-    {"x":1.0,"y":16.0,},
+    {"x":-0.046090126,"y":15.80424,},
+    {"x":2.847765,"y":1.7651341,},
+    {"x":14.188547,"y":2.0165308,},
+    {"x":15.596369,"y":15.726028,},
   ],
   "physicsStartAwake": true,
   "properties": [],

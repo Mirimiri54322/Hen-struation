@@ -3,7 +3,8 @@
 /// and fades at the specified rate of fade.
 function Screenshake(time, magnitude, fade)
 {
-	with obj_screenshakeHandler
+	var shaker = instance_create_depth(0, 0, 0, obj_screenshakeHandler);
+	with shaker
 	{
 		shake = true;
 		shakeTime = time;
