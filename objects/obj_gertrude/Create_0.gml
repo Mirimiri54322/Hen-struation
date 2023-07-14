@@ -7,6 +7,7 @@ global.player = id;
 canJump = false;
 currentHealthStep = 0;
 depth = -100;
+dead = false;
 
 /// @description Adjust Gertrude's jump height and such according to the hormones.
 function AdjustAttributesFromHormones()
@@ -81,7 +82,25 @@ function RegenHealth()
 	// You're dead and outta this world.
 	if currentHealth <= 0
 	{
-		sprite_index = spr_gertrudeDeath;
-		SwitchToRoom(room); // TODO maybe add a death exit sound?
+		Die();
 	}
+}
+
+/// @description Take the amount of damage and handle damage-taking visual effects.
+function TakeDamage(dmgAmount)
+{
+	currentHealth -= dmgAmount;
+	Screenshake(dmgAmount * 10, dmgAmount * 2, 0.5);
+}
+
+/// @description Switch to death sprite and then restart the room.
+function Die()
+{
+	dead = true;
+	sprite_index = spr_gertrudeDeath;
+	phy_angular_damping = 0;
+	phy_linear_damping = 0;
+	phy_angular_velocity = 1080 * choose(-1, 1); // degrees per second left or right
+	MoveUp(); // Ya know how when game characters die they just, like, get flung into the air?
+	SwitchToRoom(room); // TODO maybe add a death exit sound?
 }

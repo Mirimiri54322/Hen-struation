@@ -1,3 +1,3 @@
 /// @description Damage and be destroyed.
-obj_gertrude.currentHealth -= 10; // Decrease player's health
+obj_gertrude.TakeDamage(10);
 instance_destroy(); // Destroy arrow object

@@ -38,10 +38,10 @@
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsShapePoints": [
-    {"x":2.0,"y":2.0,},
-    {"x":16.0,"y":2.0,},
-    {"x":16.0,"y":16.0,},
-    {"x":2.0,"y":16.0,},
+    {"x":3.0,"y":3.0,},
+    {"x":15.0,"y":3.0,},
+    {"x":15.0,"y":15.0,},
+    {"x":3.0,"y":15.0,},
   ],
   "physicsStartAwake": true,
   "properties": [

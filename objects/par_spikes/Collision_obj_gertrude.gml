@@ -2,5 +2,5 @@
 
 if !isInputActive
 {
-	other.currentHealth -= 1;
+	other.TakeDamage(1);
 }
