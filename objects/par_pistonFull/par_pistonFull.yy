@@ -1,9 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_pistonPeakFull",
+  "name": "par_pistonFull",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -11,10 +13,7 @@
     "name": "Hazards",
     "path": "folders/Objects/Hazards.yy",
   },
-  "parentObjectId": {
-    "name": "par_pistonFull",
-    "path": "objects/par_pistonFull/par_pistonFull.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.0,
@@ -36,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_pistonPeakFull",
-    "path": "sprites/spr_pistonPeakFull/spr_pistonPeakFull.yy",
+    "name": "spr_pistonForestFull",
+    "path": "sprites/spr_pistonForestFull/spr_pistonForestFull.yy",
   },
   "spriteMaskId": null,
   "visible": true,
