@@ -1,18 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bush1",
+  "name": "par_decoration",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Bushes",
-    "path": "folders/Objects/Decoration/Bushes.yy",
+    "name": "Decoration",
+    "path": "folders/Objects/Decoration.yy",
   },
-  "parentObjectId": {
-    "name": "par_decoration",
-    "path": "objects/par_decoration/par_decoration.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_bush1",
-    "path": "sprites/spr_bush1/spr_bush1.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

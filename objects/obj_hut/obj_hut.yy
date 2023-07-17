@@ -7,9 +7,12 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Peak",
-    "path": "folders/Objects/Foliage/Peak.yy",
+    "path": "folders/Objects/Decoration/Peak.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_decoration",
+    "path": "objects/par_decoration/par_decoration.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

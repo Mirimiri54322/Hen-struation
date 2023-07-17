@@ -7,9 +7,12 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Bushes",
-    "path": "folders/Objects/Foliage/Bushes.yy",
+    "path": "folders/Objects/Decoration/Bushes.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_decoration",
+    "path": "objects/par_decoration/par_decoration.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
