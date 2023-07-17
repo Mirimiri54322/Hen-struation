@@ -2,7 +2,7 @@
 
 if !isInputActive // shoots by default, doesn't when has input
 {
-	audio_play_sound(sound_arrow_trap__1, 1, false);
+	PlaySoundFrom(id, snd_arrowTrap1);
 
 	// rotation of 0 shoots left
 	// rotation 90 shoots down

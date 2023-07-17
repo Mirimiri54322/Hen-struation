@@ -1,3 +1,3 @@
 /// @description change image index
-audio_play_sound(piston_crush, 1, false);
+PlaySoundFrom(id, snd_pistonCrush);
 instance_change(obj_pistonForestFull, true);

@@ -9,6 +9,10 @@ currentHealthStep = 0;
 depth = -100;
 dead = false;
 
+// Define the audio listening stuff so global sounds are heard relative to the player.
+audio_listener_orientation(0, -1, 0, 0, 0, -1);
+audio_falloff_set_model(audio_falloff_linear_distance);
+
 /// @description Adjust Gertrude's jump height and such according to the hormones.
 function AdjustAttributesFromHormones()
 {

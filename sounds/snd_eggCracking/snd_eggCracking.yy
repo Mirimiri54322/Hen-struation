@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sound_arrow_trap__1",
+  "name": "snd_eggCracking",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.288,
+  "duration": 2.832,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sound_arrow_trap__1.mp3",
+  "soundFile": "snd_eggCracking.mp3",
   "type": 0,
   "volume": 1.0,
 }
