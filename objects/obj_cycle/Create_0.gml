@@ -45,6 +45,7 @@ if instance_number(obj_cycle) > 1
 
 // Set to first image
 image_index = 0;
+phase_index = 0;
 // Make it appear on top of other game stuff
 depth = -1000
 

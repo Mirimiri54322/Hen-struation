@@ -13,8 +13,8 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d618d785-9156-499d-8e5f-122e0cf187e7",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"60e827f7-c679-4b99-b70e-9ec40746149e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e65c5131-5793-4bad-9a67-2107bdb8c2ab",},
   ],
   "gridX": 4,
   "gridY": 4,
@@ -56,8 +56,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d618d785-9156-499d-8e5f-122e0cf187e7","path":"sprites/spr_gertrude/spr_gertrude.yy",},},},"Disabled":false,"id":"fff182a7-041e-4374-8a05-b84921d00f1f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"60e827f7-c679-4b99-b70e-9ec40746149e","path":"sprites/spr_gertrude/spr_gertrude.yy",},},},"Disabled":false,"id":"4ffc9609-b7ed-4ba7-ab52-8a805b594ed3","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"60e827f7-c679-4b99-b70e-9ec40746149e","path":"sprites/spr_gertrude/spr_gertrude.yy",},},},"Disabled":false,"id":"4ffc9609-b7ed-4ba7-ab52-8a805b594ed3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e65c5131-5793-4bad-9a67-2107bdb8c2ab","path":"sprites/spr_gertrude/spr_gertrude.yy",},},},"Disabled":false,"id":"ba191d6c-7be0-4057-9374-b76b386f7bf2","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
