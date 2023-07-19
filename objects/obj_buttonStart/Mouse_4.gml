@@ -1,3 +1,3 @@
 /// @description Go to room
 
-SwitchToRoom(rm_alpineforest);
+SwitchToRoom(rm_test2);
