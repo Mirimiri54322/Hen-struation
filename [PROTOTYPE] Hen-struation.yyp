@@ -124,6 +124,7 @@
     {"id":{"name":"spr_buttonMusic","path":"sprites/spr_buttonMusic/spr_buttonMusic.yy",},},
     {"id":{"name":"obj_gertrudePhase3","path":"objects/obj_gertrudePhase3/obj_gertrudePhase3.yy",},},
     {"id":{"name":"obj_V1stump","path":"objects/obj_V1stump/obj_V1stump.yy",},},
+    {"id":{"name":"rm_peak","path":"rooms/rm_peak/rm_peak.yy",},},
     {"id":{"name":"obj_screenTransition","path":"objects/obj_screenTransition/obj_screenTransition.yy",},},
     {"id":{"name":"obj_bush","path":"objects/obj_bush/obj_bush.yy",},},
     {"id":{"name":"spr_buttonCredits","path":"sprites/spr_buttonCredits/spr_buttonCredits.yy",},},
@@ -281,6 +282,7 @@
     {"roomId":{"name":"rm_demo2","path":"rooms/rm_demo2/rm_demo2.yy",},},
     {"roomId":{"name":"rm_template","path":"rooms/rm_template/rm_template.yy",},},
     {"roomId":{"name":"rm_ruins11","path":"rooms/rm_ruins11/rm_ruins11.yy",},},
+    {"roomId":{"name":"rm_peak","path":"rooms/rm_peak/rm_peak.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
