@@ -51,11 +51,13 @@ function MoveUp(multiplier = 1.0)
 
 function Jump(multiplier = 1.0)
 {
+	
 	if canJump || global.estrogen > 0.75
 	{
 		MoveUp(multiplier);
 		canJump = false;
 	}
+	PlaySoundFrom(id, snd_jumpFlapping); //jumping sound
 }
 
 /// @description Stop moving left or right.
