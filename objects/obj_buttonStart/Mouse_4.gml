@@ -1,3 +1,4 @@
 /// @description Go to room
 
-SwitchToRoom(rm_alpineforest);
+PlaySoundFrom(id, snd_startButton); //button click sound
+SwitchToRoom(rm_ruins);
