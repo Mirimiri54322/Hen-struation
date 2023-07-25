@@ -2,31 +2,36 @@
 
 var camera = view_get_camera(view_current);
 
-var dialX = camera_get_view_x(camera) + camera_get_view_width(camera) - sprite_width / 2;
+var dialX = camera_get_view_x(camera) + camera_get_view_width(camera) - sprite_width / 2 ;
 var dialY = camera_get_view_y(camera) + sprite_height / 2;
+
+if room == rm_alpineforest
+{
+	dialX -= 10;
+	dialY += 7;
+}
 
 draw_sprite(spr_cycle, image_index, dialX, dialY);
 draw_sprite_ext(needleSprite, 0, dialX, dialY, 1, 1, currentAngle, c_white, 1);
 
-show_debug_message(currentAngle);
 
 if currentAngle > -137 && currentAngle < -61
 {
-    phase_index = 1;
+    global.phase_index = 1;
 } 
 else if currentAngle > -198 && currentAngle < -137
 {
-    phase_index = 2;
+   global.phase_index = 2;
 } 
 else if currentAngle > -360 && currentAngle < -198
 {
-    phase_index = 3;
+    global.phase_index = 3;
 }
 else
 {
-	phase_index = 0;
+	global.phase_index = 0;
 }
-draw_sprite_ext(spr_needlePhases, phase_index, dialX, dialY + 25, 1, 1, 0, c_white, 1);
+draw_sprite_ext(spr_needlePhases, global.phase_index, dialX, dialY + 25, 1, 1, 0, c_white, 1);
 
 
 // Define starting point and buffer for row of stats.
