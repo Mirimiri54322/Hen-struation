@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Restart
 
-room_goto(rm_demo);
+room_goto(room);
