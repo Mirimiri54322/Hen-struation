@@ -4,7 +4,7 @@
   "name": "spr_skyNight",
   "bbox_bottom": 239,
   "bbox_left": 0,
-  "bbox_right": 239,
+  "bbox_right": 849,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 240,
+  "width": 850,
 }

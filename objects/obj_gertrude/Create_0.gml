@@ -4,6 +4,7 @@
 global.player = id;
 
 // Stuff for getting the player set up in the level.
+global.phase_index = 0;
 canJump = false;
 currentHealthStep = 0;
 depth = -100;
@@ -56,6 +57,8 @@ function Jump(multiplier = 1.0)
 	{
 		MoveUp(multiplier);
 		canJump = false;
+		sprite_index = spr_gertrudeJump;
+		alarm[0] = room_speed * 0.5;
 	}
 	PlaySoundFrom(id, snd_jumpFlapping); //jumping sound
 }
@@ -98,13 +101,15 @@ function TakeDamage(dmgAmount)
 	currentHealth -= dmgAmount;
 	MoveUp(dmgAmount * 0.05); // tiny jump because they're like, "ouch!"
 	Screenshake(dmgAmount * 0.25, dmgAmount * 0.25, 0.9);
+	sprite_index = spr_hit;
+	alarm[0] = room_speed * 0.5;
 }
 
 /// @description Switch to death sprite and then restart the room.
 function Die()
 {
-	dead = true;
 	sprite_index = spr_gertrudeDeath;
+	dead = true;
 	phy_angular_damping = 0;
 	phy_linear_damping = 0;
 	phy_angular_velocity = 1080 * choose(-1, 1); // degrees per second left or right

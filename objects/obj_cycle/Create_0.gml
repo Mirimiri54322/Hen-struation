@@ -45,12 +45,12 @@ if instance_number(obj_cycle) > 1
 
 // Set to first image
 image_index = 0;
-phase_index = 0;
+global.phase_index = 0;
 // Make it appear on top of other game stuff
 depth = -1000
-
 // Make it stay between levels
 persistent = true;
+
 
 // All of these are as a percentage of the maximum.
 global.estrogen = 0.0;

@@ -6,7 +6,10 @@ function BeActivated()
 {
 	image_index = 1;
 	isActive = true;
-	targetID.Activate();
+	if targetID != 0
+	{
+		targetID.Activate();
+	}
 	alarm[0] = room_speed * onTime; // alarm activates in onTime seconds.
 }
 
