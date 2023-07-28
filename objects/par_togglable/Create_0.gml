@@ -16,6 +16,8 @@ function Toggle()
 	isInputActive *= -1;
 }
 
+event_inherited(); // block creation event
+
 // Being inactive is the state it is in by default.
 // Being active is when you turn it on.
 // So an arrow launcher might be firing when it's inactive, and not firing when it's active.
