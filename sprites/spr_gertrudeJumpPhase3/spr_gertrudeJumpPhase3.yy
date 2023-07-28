@@ -15,6 +15,8 @@
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"bc3ebf5e-304d-40ad-8685-ade321f60682",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3c9f342d-533c-442b-b547-6e803b4bd80a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"603279b6-3c71-48de-b013-19fc7c9e4353",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3c6e7736-15f3-4aa9-8a27-b12a02ce8d9c",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -45,7 +47,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 2.0,
+    "length": 4.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -58,6 +60,8 @@
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bc3ebf5e-304d-40ad-8685-ade321f60682","path":"sprites/spr_gertrudeJumpPhase3/spr_gertrudeJumpPhase3.yy",},},},"Disabled":false,"id":"3fc50507-c667-403d-9932-2efe5c2b31de","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3c9f342d-533c-442b-b547-6e803b4bd80a","path":"sprites/spr_gertrudeJumpPhase3/spr_gertrudeJumpPhase3.yy",},},},"Disabled":false,"id":"ccc41ead-4db5-4fc7-9c6e-ecb2cbc7ef2f","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"603279b6-3c71-48de-b013-19fc7c9e4353","path":"sprites/spr_gertrudeJumpPhase3/spr_gertrudeJumpPhase3.yy",},},},"Disabled":false,"id":"d30018c1-5d2c-4fd7-9645-d4c5ed3571e9","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3c6e7736-15f3-4aa9-8a27-b12a02ce8d9c","path":"sprites/spr_gertrudeJumpPhase3/spr_gertrudeJumpPhase3.yy",},},},"Disabled":false,"id":"e3437db8-2748-46d0-a32a-15b8ca1ce140","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

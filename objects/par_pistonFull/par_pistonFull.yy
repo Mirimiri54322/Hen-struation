@@ -32,7 +32,9 @@
     {"x":2.0,"y":48.0,},
   ],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"numSecondsFull","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":30.0,"rangeMin":0.1,"value":"2","varType":0,},
+  ],
   "solid": false,
   "spriteId": {
     "name": "spr_pistonForestFull",
