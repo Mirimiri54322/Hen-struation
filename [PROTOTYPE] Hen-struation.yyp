@@ -57,7 +57,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.4.0.84",
   },
   "resources": [
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
@@ -78,7 +78,6 @@
     {"id":{"name":"obj_pistonForestFull","path":"objects/obj_pistonForestFull/obj_pistonForestFull.yy",},},
     {"id":{"name":"spr_pressurePlate","path":"sprites/spr_pressurePlate/spr_pressurePlate.yy",},},
     {"id":{"name":"spr_V2stump","path":"sprites/spr_V2stump/spr_V2stump.yy",},},
-    {"id":{"name":"mus_offYourFeetTEMP","path":"sounds/mus_offYourFeetTEMP/mus_offYourFeetTEMP.yy",},},
     {"id":{"name":"spr_levelTransition","path":"sprites/spr_levelTransition/spr_levelTransition.yy",},},
     {"id":{"name":"rm_tempEnd","path":"rooms/rm_tempEnd/rm_tempEnd.yy",},},
     {"id":{"name":"spr_pistonForestBase","path":"sprites/spr_pistonForestBase/spr_pistonForestBase.yy",},},
