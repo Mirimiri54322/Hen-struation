@@ -57,7 +57,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.4.0.84",
   },
   "resources": [
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
@@ -185,6 +185,7 @@
     {"id":{"name":"spr_bush2","path":"sprites/spr_bush2/spr_bush2.yy",},},
     {"id":{"name":"spr_screenTransitionBlue","path":"sprites/spr_screenTransitionBlue/spr_screenTransitionBlue.yy",},},
     {"id":{"name":"snd_arrowTrap3","path":"sounds/snd_arrowTrap3/snd_arrowTrap3.yy",},},
+    {"id":{"name":"snd_buttonClick","path":"sounds/snd_buttonClick/snd_buttonClick.yy",},},
     {"id":{"name":"obj_ruinSoil","path":"objects/obj_ruinSoil/obj_ruinSoil.yy",},},
     {"id":{"name":"mus_piano","path":"sounds/mus_piano/mus_piano.yy",},},
     {"id":{"name":"spr_gertrudeDeath","path":"sprites/spr_gertrudeDeath/spr_gertrudeDeath.yy",},},

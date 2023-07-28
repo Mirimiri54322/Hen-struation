@@ -151,6 +151,7 @@
     {"name":"spr_bush2","order":1,"path":"sprites/spr_bush2/spr_bush2.yy",},
     {"name":"spr_screenTransitionBlue","order":5,"path":"sprites/spr_screenTransitionBlue/spr_screenTransitionBlue.yy",},
     {"name":"snd_arrowTrap3","order":10,"path":"sounds/snd_arrowTrap3/snd_arrowTrap3.yy",},
+    {"name":"snd_buttonClick","order":29,"path":"sounds/snd_buttonClick/snd_buttonClick.yy",},
     {"name":"obj_ruinSoil","order":3,"path":"objects/obj_ruinSoil/obj_ruinSoil.yy",},
     {"name":"mus_piano","order":24,"path":"sounds/mus_piano/mus_piano.yy",},
     {"name":"spr_gertrudeDeath","order":1,"path":"sprites/spr_gertrudeDeath/spr_gertrudeDeath.yy",},
