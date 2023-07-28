@@ -15,15 +15,15 @@ draw_sprite(spr_cycle, image_index, dialX, dialY);
 draw_sprite_ext(needleSprite, 0, dialX, dialY, 1, 1, currentAngle, c_white, 1);
 
 
-if currentAngle > -137 && currentAngle < -61
+if currentAngle > -130 && currentAngle < -61
 {
     global.phase_index = 1;
 } 
-else if currentAngle > -198 && currentAngle < -137
+else if currentAngle > -195 && currentAngle < -130
 {
    global.phase_index = 2;
 } 
-else if currentAngle > -360 && currentAngle < -198
+else if currentAngle > -360 && currentAngle < -195
 {
     global.phase_index = 3;
 }

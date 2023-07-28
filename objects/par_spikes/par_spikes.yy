@@ -7,7 +7,9 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_block","path":"objects/par_block/par_block.yy",},"propertyId":{"name":"collisionNoise","path":"objects/par_block/par_block.yy",},"value":"noone",},
+  ],
   "parent": {
     "name": "Hazards",
     "path": "folders/Objects/Hazards.yy",

@@ -1,5 +1,5 @@
 /// @description set image and timer
-alarm[0] = room_speed * 2; //every 2 seconds
+alarm[0] = room_speed * numSecondsFull; //every 2 seconds
 
 // Setting piston collision
 x1 = x - 12 + 2;
