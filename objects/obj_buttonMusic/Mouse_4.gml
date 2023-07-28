@@ -10,7 +10,7 @@ else
 	image_index = 0;
 	turnMusicOn = false;
 }
-PlaySoundFrom(id, snd_buttonClick2); //button click sound
+PlaySoundFrom(id, snd_buttonClick); //button click sound
 
 
 
