@@ -1220,7 +1220,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_parallaxBackground","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"propertyId":{"name":"middleFog","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"value":"0.1",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_parallaxBackground","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"propertyId":{"name":"frontFog","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"value":"0.1",},
           ],"rotation":0.0,"scaleX":75.0,"scaleY":39.0,"x":492.0,"y":256.0,},
-      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":false,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
   ],
   "parent": {
     "name": "Alpineforest",

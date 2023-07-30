@@ -328,6 +328,7 @@
     {"name":"inst_60A577A4","path":"rooms/rm_ruinsR6/rm_ruinsR6.yy",},
     {"name":"inst_6A3ADDC5","path":"rooms/rm_ruinsR6/rm_ruinsR6.yy",},
     {"name":"inst_484868E9","path":"rooms/rm_ruinsR6/rm_ruinsR6.yy",},
+    {"name":"inst_3907725","path":"rooms/rm_ruinsR6/rm_ruinsR6.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -656,7 +657,13 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6A3ADDC5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_torch","path":"objects/obj_torch/obj_torch.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":234.0,"y":152.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_484868E9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_signGeneral","path":"objects/obj_signGeneral/obj_signGeneral.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":712.0,"y":151.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":0.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_ruins","path":"sprites/spr_ruins/spr_ruins.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":-1250,"y":-200,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Background","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3907725","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_parallaxBackground","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_parallaxBackground","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"propertyId":{"name":"backSprite","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"value":"spr_ruinsBack",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_parallaxBackground","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"propertyId":{"name":"middleSprite","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"value":"spr_ruinsMiddle",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_parallaxBackground","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"propertyId":{"name":"frontSprite","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"value":"spr_ruinsFront",},
+          ],"rotation":0.0,"scaleX":49.0,"scaleY":12.999999,"x":384.0,"y":95.99999,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
   ],
   "parent": {
     "name": "Ruins",

@@ -101,6 +101,7 @@
     {"name":"inst_35AF7CE7","path":"rooms/rm_ruinsR7/rm_ruinsR7.yy",},
     {"name":"inst_AAF4EBC","path":"rooms/rm_ruinsR7/rm_ruinsR7.yy",},
     {"name":"inst_309EA981","path":"rooms/rm_ruinsR7/rm_ruinsR7.yy",},
+    {"name":"inst_4281EB98","path":"rooms/rm_ruinsR7/rm_ruinsR7.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -202,7 +203,13 @@
           ],"rotation":0.0,"scaleX":1.0,"scaleY":4.0,"x":315.0,"y":88.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_309EA981","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_signGeneral","path":"objects/obj_signGeneral/obj_signGeneral.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":112.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":0.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_ruins","path":"sprites/spr_ruins/spr_ruins.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":-1650,"y":-160,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Background","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4281EB98","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_parallaxBackground","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_parallaxBackground","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"propertyId":{"name":"frontSprite","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"value":"spr_ruinsFront",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_parallaxBackground","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"propertyId":{"name":"middleSprite","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"value":"spr_ruinsMiddle",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_parallaxBackground","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"propertyId":{"name":"backSprite","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"value":"spr_ruinsBack",},
+          ],"rotation":0.0,"scaleX":21.0,"scaleY":13.0,"x":160.0,"y":96.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
   ],
   "parent": {
     "name": "Ruins",

@@ -20,7 +20,7 @@
   "height": 240,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5da28f71-1d2d-4e5d-8da8-ab466fbc0e34","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":false,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5da28f71-1d2d-4e5d-8da8-ab466fbc0e34","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4732628d-3be5-4c45-ad2e-9a374eea1b9f","blendMode":0,"displayName":"skyDay","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
