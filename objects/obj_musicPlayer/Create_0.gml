@@ -65,10 +65,10 @@ function UpdateDynamicMusic()
 {
 	if playDynamicMusic
 	{
-		var fadeTime = 0.25;
+		var fadeTime = 0.5;
 		audio_sound_gain(bass, clamp(global.follicleStimulatingHormone, 0.25, 1), fadeTime); // always gotta have a lil' bass goin'
 		audio_sound_gain(cello, ((global.player.maxHealth - global.player.currentHealth) / global.player.maxHealth), fadeTime);
-		audio_sound_gain(hats, clamp(global.player.phy_speed / 2, 0, 0.8), fadeTime * 4);
+		audio_sound_gain(hats, clamp(global.player.phy_speed / 2, 0.25, 0.75), fadeTime * 4);
 		audio_sound_gain(hits, clamp(global.follicleStimulatingHormone, 0.1, 1), fadeTime);
 		audio_sound_gain(panpipes, clamp(global.estrogen, 0, 0.333), fadeTime); // Flute is just loud for some reason so the lower clamp makes it quieter
 		audio_sound_gain(piano, clamp(global.progesterone, 0.1, 1), fadeTime);
