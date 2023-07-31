@@ -15,7 +15,9 @@ function PlaySongForCurrentRoom()
 		case rm_title:
 			nextSong = mus_skippedThePicnic;
 		break;
-		// TODO when we have credits, add those here as well.
+		case rm_credits:
+			nextSong = mus_skippedThePicnic;
+		break;
 		default:
 			nextSong = noone;
 			StartDynamicMusic();

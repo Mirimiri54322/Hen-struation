@@ -1,9 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_buttonCredits",
+  "name": "obj_credits",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":9,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -28,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_buttonCredits",
-    "path": "sprites/spr_buttonCredits/spr_buttonCredits.yy",
+    "name": "spr_credits",
+    "path": "sprites/spr_credits/spr_credits.yy",
   },
   "spriteMaskId": null,
   "visible": true,
