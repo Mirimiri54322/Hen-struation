@@ -80,6 +80,7 @@ function UpdateDynamicMusic()
 currentSong = noone;
 persistent = true;
 image_alpha = global.debug; // invisible if debug off.
+global.musicPlayer = id; // Hi!
 
 // Initialize dynamic music vars
 playDynamicMusic = false;

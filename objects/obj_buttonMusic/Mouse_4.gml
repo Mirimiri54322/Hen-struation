@@ -1,14 +1,15 @@
 /// @description music on/off
 
-if !turnMusicOn
+if global.musicPlayer != noone
 {
+	instance_destroy(global.musicPlayer);
 	image_index = 1;
-	turnMusicOn = true;
 }
 else
 {
+	var player = instance_create_depth(x, y, 0, obj_musicPlayer);
+	player.PlaySongForCurrentRoom();
 	image_index = 0;
-	turnMusicOn = false;
 }
 PlaySoundFrom(id, snd_buttonClick); //button click sound
 
