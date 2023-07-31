@@ -15,15 +15,15 @@
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"83178502-b879-4915-a50e-10fa98d5e4bd",},
   ],
-  "gridX": 10,
-  "gridY": 10,
+  "gridX": 5,
+  "gridY": 5,
   "height": 180,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d5b65b60-974f-4480-8717-2f7404663964","blendMode":0,"displayName":"sketch","isLocked":false,"opacity":25.0,"visible":false,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"49e2c601-a7be-446d-bdb2-2e7f239d0ba8","blendMode":0,"displayName":"Drawings Base","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"17e27f89-e174-4f55-aa3c-a5ea98c31ca0","blendMode":0,"displayName":"Drawings Lighting","isLocked":false,"opacity":100.0,"visible":true,},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"abe1f032-6381-4c8b-a788-698ed877f266","blendMode":0,"displayName":"Name Places","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"480950d8-571b-4a0f-838a-fcb65079322a","blendMode":0,"displayName":"Names","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"12b9f32d-43f9-467b-ad38-4b1a8a4e6e26","blendMode":0,"displayName":"stone","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"670d4bf2-9b19-4387-b944-667df60881c6","blendMode":0,"displayName":"back","isLocked":false,"opacity":100.0,"visible":true,},
   ],
