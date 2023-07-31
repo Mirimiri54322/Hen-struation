@@ -3,7 +3,7 @@
 // Player damage collision
 if collision_rectangle(x1, y1, x2, y2, obj_gertrude, false, false) 
 {
-   obj_gertrude.TakeDamage(50);
+   obj_gertrude.TakeDamage(100);
 }
 
 // Pushable block collision (for crushing)

@@ -421,7 +421,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_parallaxBackground","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"propertyId":{"name":"middleSprite","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"value":"spr_ruinsMiddle",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_parallaxBackground","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"propertyId":{"name":"frontSprite","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"value":"spr_ruinsFront",},
           ],"rotation":0.0,"scaleX":31.0,"scaleY":15.0,"x":240.0,"y":112.0,},
-      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":false,},
   ],
   "parent": {
     "name": "Ruins",

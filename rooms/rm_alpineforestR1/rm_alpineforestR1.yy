@@ -107,7 +107,6 @@
     {"name":"inst_676EF196","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
     {"name":"inst_65ADFEB8","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
     {"name":"inst_2AB148A9","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
-    {"name":"inst_1E113306","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
     {"name":"inst_34BF9D16","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
     {"name":"inst_38645E08","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
     {"name":"inst_7258DE41","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
@@ -558,7 +557,6 @@
     {"name":"inst_BEAEF28","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
     {"name":"inst_7A5D9CCD","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
     {"name":"inst_3AADA38B","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
-    {"name":"inst_441206BE","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
     {"name":"inst_4D93EBC9","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
     {"name":"inst_41602CBA","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
     {"name":"inst_1981BE51","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
@@ -597,6 +595,8 @@
     {"name":"inst_44F03436","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
     {"name":"inst_1DD18FF9","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
     {"name":"inst_418EE877","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
+    {"name":"inst_1315AD5","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
+    {"name":"inst_441206BE","path":"rooms/rm_alpineforestR1/rm_alpineforestR1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -711,7 +711,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_676EF196","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_forestGround","path":"objects/obj_forestGround/obj_forestGround.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":372.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_65ADFEB8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_forestSoil","path":"objects/obj_forestSoil/obj_forestSoil.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":388.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2AB148A9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_V3tree","path":"objects/obj_V3tree/obj_V3tree.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":368.0,"y":356.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1E113306","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pistonForestFull","path":"objects/obj_pistonForestFull/obj_pistonForestFull.yy",},"properties":[],"rotation":0.0,"scaleX":1.3333334,"scaleY":1.0,"x":536.0,"y":372.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_34BF9D16","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_forestGround","path":"objects/obj_forestGround/obj_forestGround.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":496.0,"y":388.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_38645E08","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_forestSoil","path":"objects/obj_forestSoil/obj_forestSoil.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":496.0,"y":404.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7258DE41","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_forestGround","path":"objects/obj_forestGround/obj_forestGround.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":404.0,},
@@ -1210,6 +1209,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_418EE877","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_levelTransition","path":"objects/obj_levelTransition/obj_levelTransition.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_levelTransition","path":"objects/obj_levelTransition/obj_levelTransition.yy",},"propertyId":{"name":"destinationRoom","path":"objects/obj_levelTransition/obj_levelTransition.yy",},"value":"rm_alpineforestR4E1",},
           ],"rotation":0.0,"scaleX":28.0,"scaleY":2.0,"x":216.0,"y":8.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1315AD5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pistonForestFull","path":"objects/obj_pistonForestFull/obj_pistonForestFull.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":528.0,"y":348.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Background","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2339BCC7_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_parallaxBackground","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"properties":[

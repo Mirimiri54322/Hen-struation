@@ -2,8 +2,8 @@
 
 var camera = view_get_camera(view_current);
 
-var dialX =(camera_get_view_x(camera) + camera_get_view_width(camera) - sprite_width / 2) - 3;
-var dialY =(camera_get_view_y(camera) + sprite_height / 2) + 3;
+var dialX =(camera_get_view_x(camera) + camera_get_view_width(camera) - sprite_width / 2) - 7;
+var dialY =(camera_get_view_y(camera) + sprite_height / 2) + 7;
 
 draw_sprite(spr_cycle, image_index, dialX, dialY);
 draw_sprite_ext(needleSprite, 0, dialX, dialY, 1, 1, currentAngle, c_white, 1);
