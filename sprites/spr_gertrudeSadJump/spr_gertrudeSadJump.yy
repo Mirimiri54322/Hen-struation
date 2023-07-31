@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_gertrudeJumpPhase2",
+  "name": "spr_gertrudeSadJump",
   "bbox_bottom": 15,
   "bbox_left": 0,
   "bbox_right": 15,
@@ -34,7 +34,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_gertrudeJumpPhase2",
+    "name": "spr_gertrudeSadJump",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -56,8 +56,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bcf9f549-8068-4eb5-a09e-6244b9d9219a","path":"sprites/spr_gertrudeJumpPhase2/spr_gertrudeJumpPhase2.yy",},},},"Disabled":false,"id":"ad761886-c713-423b-8803-95ef0b7f3a0e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ab08db7d-fddb-427c-ac5d-9f972b36f9bd","path":"sprites/spr_gertrudeJumpPhase2/spr_gertrudeJumpPhase2.yy",},},},"Disabled":false,"id":"c6ab9b33-c334-473c-9960-49c97d93c980","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bcf9f549-8068-4eb5-a09e-6244b9d9219a","path":"sprites/spr_gertrudeSadJump/spr_gertrudeSadJump.yy",},},},"Disabled":false,"id":"ad761886-c713-423b-8803-95ef0b7f3a0e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ab08db7d-fddb-427c-ac5d-9f972b36f9bd","path":"sprites/spr_gertrudeSadJump/spr_gertrudeSadJump.yy",},},},"Disabled":false,"id":"c6ab9b33-c334-473c-9960-49c97d93c980","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

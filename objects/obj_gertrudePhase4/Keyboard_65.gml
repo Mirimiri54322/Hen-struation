@@ -1,3 +1,0 @@
-/// @description Go left.
-
-MoveLeft(); 

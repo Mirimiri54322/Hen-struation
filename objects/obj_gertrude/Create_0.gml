@@ -25,6 +25,32 @@ function AdjustAttributesFromHormones()
 	{
 		healthRegenFramesPerHP = 15 / global.progesterone;
 	}
+	
+	// Figure out what sprite we should use.
+	if global.estrogen >= 0.75
+	{
+		SetMainSprite(spr_gertrudeGlow);
+	}
+	else if global.progesterone >= 0.75
+	{
+		SetMainSprite(spr_gertrudeHeal);
+	}
+	else if global.estrogen <= 0.25
+	{
+		SetMainSprite(spr_gertrudeSad);
+	}
+	else
+	{
+		SetMainSprite(spr_gertrude);
+	}
+}
+
+/// @description Changes the default sprite to this.
+/// Should automatically adjust with jump and such.
+function SetMainSprite(newSprite)
+{
+	currentMainSprite = newSprite;
+	sprite_index = currentMainSprite;
 }
 
 /// @description Walk left.
@@ -57,7 +83,8 @@ function Jump(multiplier = 1.0)
 	{
 		MoveUp(multiplier);
 		canJump = false;
-		sprite_index = spr_gertrudeJump;
+		// This next line gets the jump version current "normal" sprite.
+		sprite_index = asset_get_index(sprite_get_name(currentMainSprite) + "Jump");
 		alarm[0] = room_speed * 0.5;
 	}
 	PlaySoundFrom(id, snd_jumpFlapping); //jumping sound

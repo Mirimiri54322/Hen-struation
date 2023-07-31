@@ -1,4 +1,3 @@
-/// @description Insert description here
-sprite_index = spr_gertrude;
+/// @description Return to normal sprite.
 
-
+sprite_index = currentMainSprite;

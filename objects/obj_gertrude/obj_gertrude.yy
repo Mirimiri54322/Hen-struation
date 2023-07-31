@@ -54,6 +54,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"maxHealth","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"100","varType":1,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"currentHealth","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"100","varType":1,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"healthRegenFramesPerHP","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"20","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"currentMainSprite","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_gertrude","varType":5,},
   ],
   "solid": true,
   "spriteId": {
