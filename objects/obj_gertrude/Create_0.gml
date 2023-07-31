@@ -91,8 +91,8 @@ function Jump(multiplier = 1.0)
 		// This next line gets the jump version current "normal" sprite.
 		sprite_index = asset_get_index(sprite_get_name(currentMainSprite) + "Jump");
 		alarm[0] = room_speed * 0.5;
+		PlaySoundFrom(id, snd_jumpFlapping); //jumping sound
 	}
-	PlaySoundFrom(id, snd_jumpFlapping); //jumping sound
 }
 
 /// @description Stop moving left or right.
