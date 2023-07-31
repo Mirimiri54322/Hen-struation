@@ -19,3 +19,5 @@ global.luteinizingHormone = 0;
 global.progesterone = 0;
 
 global.hormoneTable = ReadCSV("hormoneGraph.csv");
+
+depth = -1000;

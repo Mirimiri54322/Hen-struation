@@ -2,6 +2,6 @@
 
 if !isInputActive
 {
-	obj_gertrude.TakeDamage(1);
+	obj_gertrude.TakeDamage(5);
 	MakeCollisionNoise();
 }
