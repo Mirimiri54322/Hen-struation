@@ -4,7 +4,9 @@
   "name": "obj_flowers1",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_collisionSound","path":"objects/par_collisionSound/par_collisionSound.yy",},"propertyId":{"name":"collisionNoise","path":"objects/par_collisionSound/par_collisionSound.yy",},"value":"snd_foliage",},
+  ],
   "parent": {
     "name": "Flowers",
     "path": "folders/Objects/Decoration/Flowers.yy",

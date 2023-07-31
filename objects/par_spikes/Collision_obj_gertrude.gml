@@ -3,6 +3,5 @@
 if !isInputActive
 {
 	obj_gertrude.TakeDamage(1);
+	MakeCollisionNoise();
 }
-
-PlaySoundFrom(id, snd_spikes); //sound of a chicken getting hurt

@@ -2,18 +2,17 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "par_block",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_gertrude","path":"objects/obj_gertrude/obj_gertrude.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_pushableBlock","path":"objects/obj_pushableBlock/obj_pushableBlock.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Blocks",
     "path": "folders/Objects/Blocks.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_collisionSound",
+    "path": "objects/par_collisionSound/par_collisionSound.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.0,
@@ -32,9 +31,7 @@
     {"x":0.0,"y":16.0,},
   ],
   "physicsStartAwake": true,
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"collisionNoise","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"noone","varType":5,},
-  ],
+  "properties": [],
   "solid": true,
   "spriteId": {
     "name": "spr_rock",

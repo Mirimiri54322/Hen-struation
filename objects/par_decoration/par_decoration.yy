@@ -9,7 +9,10 @@
     "name": "Decoration",
     "path": "folders/Objects/Decoration.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_collisionSound",
+    "path": "objects/par_collisionSound/par_collisionSound.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

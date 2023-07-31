@@ -8,7 +8,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_block","path":"objects/par_block/par_block.yy",},"propertyId":{"name":"collisionNoise","path":"objects/par_block/par_block.yy",},"value":"noone",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_collisionSound","path":"objects/par_collisionSound/par_collisionSound.yy",},"propertyId":{"name":"collisionNoise","path":"objects/par_collisionSound/par_collisionSound.yy",},"value":"snd_spikes",},
   ],
   "parent": {
     "name": "Hazards",

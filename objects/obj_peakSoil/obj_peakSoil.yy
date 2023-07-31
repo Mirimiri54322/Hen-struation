@@ -4,9 +4,7 @@
   "name": "obj_peakSoil",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_block","path":"objects/par_block/par_block.yy",},"propertyId":{"name":"collisionNoise","path":"objects/par_block/par_block.yy",},"value":"snd_dirt",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "Blocks",
     "path": "folders/Objects/Blocks.yy",

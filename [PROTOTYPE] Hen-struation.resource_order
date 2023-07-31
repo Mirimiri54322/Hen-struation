@@ -139,6 +139,7 @@
     {"name":"spr_ruinStone","order":7,"path":"sprites/spr_ruinStone/spr_ruinStone.yy",},
     {"name":"rm_ruinsR3E2","order":3,"path":"rooms/rm_ruinsR3E2/rm_ruinsR3E2.yy",},
     {"name":"spr_buttonTutorial","order":10,"path":"sprites/spr_buttonTutorial/spr_buttonTutorial.yy",},
+    {"name":"par_collisionSound","order":13,"path":"objects/par_collisionSound/par_collisionSound.yy",},
     {"name":"par_switch","order":7,"path":"objects/par_switch/par_switch.yy",},
     {"name":"rm_ruinsR6","order":6,"path":"rooms/rm_ruinsR6/rm_ruinsR6.yy",},
     {"name":"spr_signGeneral","order":6,"path":"sprites/spr_signGeneral/spr_signGeneral.yy",},

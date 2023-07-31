@@ -169,6 +169,7 @@
     {"id":{"name":"spr_flowers1","path":"sprites/spr_flowers1/spr_flowers1.yy",},},
     {"id":{"name":"rm_ruinsR3E2","path":"rooms/rm_ruinsR3E2/rm_ruinsR3E2.yy",},},
     {"id":{"name":"spr_buttonTutorial","path":"sprites/spr_buttonTutorial/spr_buttonTutorial.yy",},},
+    {"id":{"name":"par_collisionSound","path":"objects/par_collisionSound/par_collisionSound.yy",},},
     {"id":{"name":"par_switch","path":"objects/par_switch/par_switch.yy",},},
     {"id":{"name":"rm_ruinsR6","path":"rooms/rm_ruinsR6/rm_ruinsR6.yy",},},
     {"id":{"name":"spr_signGeneral","path":"sprites/spr_signGeneral/spr_signGeneral.yy",},},
