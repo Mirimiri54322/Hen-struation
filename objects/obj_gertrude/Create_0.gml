@@ -50,7 +50,12 @@ function AdjustAttributesFromHormones()
 function SetMainSprite(newSprite)
 {
 	currentMainSprite = newSprite;
-	sprite_index = currentMainSprite;
+	if string_pos("Jump", sprite_get_name(sprite_index)) < 1
+	{
+		// Only change to new sprite if we're not currently jumping
+		// and thus using a different sprite
+		sprite_index = currentMainSprite;
+	}
 }
 
 /// @description Walk left.
