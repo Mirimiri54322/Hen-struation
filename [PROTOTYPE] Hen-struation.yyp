@@ -60,10 +60,11 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.4.0.84",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"rm_ruinsR5","path":"rooms/rm_ruinsR5/rm_ruinsR5.yy",},},
+    {"id":{"name":"spr_alpineForestMiddleV2","path":"sprites/spr_alpineForestMiddleV2/spr_alpineForestMiddleV2.yy",},},
     {"id":{"name":"asset_2","path":"sprites/asset_2/asset_2.yy",},},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
     {"id":{"name":"spr_alpineForestMiddle","path":"sprites/spr_alpineForestMiddle/spr_alpineForestMiddle.yy",},},
@@ -244,6 +245,7 @@
     {"id":{"name":"obj_arrowForestLauncher","path":"objects/obj_arrowForestLauncher/obj_arrowForestLauncher.yy",},},
     {"id":{"name":"spr_V3tree","path":"sprites/spr_V3tree/spr_V3tree.yy",},},
     {"id":{"name":"obj_pistonRuinBase","path":"objects/obj_pistonRuinBase/obj_pistonRuinBase.yy",},},
+    {"id":{"name":"spr_alpineForestBackV2","path":"sprites/spr_alpineForestBackV2/spr_alpineForestBackV2.yy",},},
     {"id":{"name":"obj_cursor","path":"objects/obj_cursor/obj_cursor.yy",},},
     {"id":{"name":"obj_V2stump","path":"objects/obj_V2stump/obj_V2stump.yy",},},
     {"id":{"name":"obj_V3stump","path":"objects/obj_V3stump/obj_V3stump.yy",},},
@@ -283,6 +285,7 @@
     {"id":{"name":"spr_spikesRuin","path":"sprites/spr_spikesRuin/spr_spikesRuin.yy",},},
     {"id":{"name":"spr_columnGrassy","path":"sprites/spr_columnGrassy/spr_columnGrassy.yy",},},
     {"id":{"name":"obj_screenshakeHandler","path":"objects/obj_screenshakeHandler/obj_screenshakeHandler.yy",},},
+    {"id":{"name":"spr_skyDayV2","path":"sprites/spr_skyDayV2/spr_skyDayV2.yy",},},
     {"id":{"name":"obj_buttonTutorial","path":"objects/obj_buttonTutorial/obj_buttonTutorial.yy",},},
     {"id":{"name":"obj_flower","path":"objects/obj_flower/obj_flower.yy",},},
     {"id":{"name":"obj_ruinRockGrassy","path":"objects/obj_ruinRockGrassy/obj_ruinRockGrassy.yy",},},

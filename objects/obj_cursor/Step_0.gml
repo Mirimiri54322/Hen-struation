@@ -3,7 +3,7 @@
 x = mouse_x;
 y = mouse_y;
 
-if(room != rm_title && room != rm_tutorial)
+if(room != rm_title)
 {
 	instance_destroy();
 }

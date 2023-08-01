@@ -43,7 +43,7 @@ function PlaySongForCurrentRoom()
 function StartDynamicMusic()
 {
 	// if we're already playing music, don't do anything, obviously.
-	if playDynamicMusic
+	if playDynamicMusic || room == rm_credits  || room == rm_title
 	{
 		return;
 	}
@@ -63,6 +63,10 @@ function StartDynamicMusic()
 /// @description Updates the dynamic level music according to all the hormones and such.
 function UpdateDynamicMusic()
 {
+	if room == rm_credits  || room == rm_title
+	{
+		return;
+	}
 	if playDynamicMusic
 	{
 		var fadeTime = 0.5;
