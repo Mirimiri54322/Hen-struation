@@ -435,6 +435,9 @@
     {"name":"inst_682A059A","path":"rooms/rm_peakR1/rm_peakR1.yy",},
     {"name":"inst_58BEC58B","path":"rooms/rm_peakR1/rm_peakR1.yy",},
     {"name":"inst_51A31B73","path":"rooms/rm_peakR1/rm_peakR1.yy",},
+    {"name":"inst_BDDA03C","path":"rooms/rm_peakR1/rm_peakR1.yy",},
+    {"name":"inst_682A059A","path":"rooms/rm_peakR1/rm_peakR1.yy",},
+    {"name":"inst_58BEC58B","path":"rooms/rm_peakR1/rm_peakR1.yy",},
   ],
   "isDnd": false,
   "layers": [
