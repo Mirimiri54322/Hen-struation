@@ -13,9 +13,11 @@ function PlaySongForCurrentRoom()
 	switch room
 	{
 		case rm_title:
+			StopDynamicMusic();
 			nextSong = mus_skippedThePicnic;
 		break;
 		case rm_credits:
+			StopDynamicMusic();
 			nextSong = mus_skippedThePicnic;
 		break;
 		default:
@@ -60,13 +62,22 @@ function StartDynamicMusic()
 	playDynamicMusic = true;
 }
 
+/// @description CEASE THE NOISE.
+function StopDynamicMusic()
+{
+	audio_stop_sound(bass);
+	audio_stop_sound(cello);
+	audio_stop_sound(hats);
+	audio_stop_sound(hits);
+	audio_stop_sound(panpipes);
+	audio_stop_sound(piano);
+	audio_stop_sound(uke);
+	playDynamicMusic = false;
+}
+
 /// @description Updates the dynamic level music according to all the hormones and such.
 function UpdateDynamicMusic()
 {
-	if room == rm_credits  || room == rm_title
-	{
-		return;
-	}
 	if playDynamicMusic
 	{
 		var fadeTime = 0.5;

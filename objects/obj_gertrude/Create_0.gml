@@ -128,10 +128,13 @@ function RegenHealth()
 }
 
 /// @description Take the amount of damage and handle damage-taking visual effects.
-function TakeDamage(dmgAmount)
+function TakeDamage(dmgAmount, throwPlayer = true)
 {
 	currentHealth -= dmgAmount;
-	MoveUp(dmgAmount * 0.05); // tiny jump because they're like, "ouch!"
+	if throwPlayer
+	{
+		MoveUp(dmgAmount * 0.05); // tiny jump because they're like, "ouch!"
+	}
 	Screenshake(dmgAmount * 0.25, dmgAmount * 0.25, 0.9);
 	sprite_index = spr_hit;
 	alarm[0] = room_speed * 0.5;

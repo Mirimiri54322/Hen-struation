@@ -287,7 +287,6 @@
     {"name":"inst_1A348D42","path":"rooms/rm_peakR2/rm_peakR2.yy",},
     {"name":"inst_183F2501","path":"rooms/rm_peakR2/rm_peakR2.yy",},
     {"name":"inst_7B2EF41A","path":"rooms/rm_peakR2/rm_peakR2.yy",},
-    {"name":"inst_D4B9313","path":"rooms/rm_peakR2/rm_peakR2.yy",},
     {"name":"inst_7A1D7FF8","path":"rooms/rm_peakR2/rm_peakR2.yy",},
     {"name":"inst_CA23C70","path":"rooms/rm_peakR2/rm_peakR2.yy",},
   ],
@@ -575,9 +574,10 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_183F2501","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_invisibleWall","path":"objects/obj_invisibleWall/obj_invisibleWall.yy",},"properties":[],"rotation":0.0,"scaleX":1.375,"scaleY":16.125,"x":765.0,"y":121.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7B2EF41A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_levelTransition","path":"objects/obj_levelTransition/obj_levelTransition.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_levelTransition","path":"objects/obj_levelTransition/obj_levelTransition.yy",},"propertyId":{"name":"destinationRoom","path":"objects/obj_levelTransition/obj_levelTransition.yy",},"value":"rm_peakR3",},
-          ],"rotation":0.0,"scaleX":2.15625,"scaleY":3.8125,"x":282.44,"y":29.5,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D4B9313","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_signGeneral","path":"objects/obj_signGeneral/obj_signGeneral.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":166.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7A1D7FF8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_signGeneral","path":"objects/obj_signGeneral/obj_signGeneral.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":471.0,"y":102.0,},
+          ],"rotation":0.0,"scaleX":2.15625,"scaleY":3.8125,"x":272.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7A1D7FF8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_signGeneral","path":"objects/obj_signGeneral/obj_signGeneral.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_signGeneral","path":"objects/obj_signGeneral/obj_signGeneral.yy",},"propertyId":{"name":"textToDisplay","path":"objects/obj_signGeneral/obj_signGeneral.yy",},"value":"Community Notice:\\nif anyone is still here,\\ncheck your PO box for a\\npamphlet on soil\\ndegradation.",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":471.0,"y":102.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Background","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_CA23C70","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_parallaxBackground","path":"objects/obj_parallaxBackground/obj_parallaxBackground.yy",},"properties":[
