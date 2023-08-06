@@ -91,7 +91,10 @@ function Jump(multiplier = 1.0)
 		// This next line gets the jump version current "normal" sprite.
 		sprite_index = asset_get_index(sprite_get_name(currentMainSprite) + "Jump");
 		alarm[0] = room_speed * 0.5;
-		PlaySoundFrom(id, snd_jumpFlapping); //jumping sound
+		if global.estrogen > 0.75
+		{
+			PlaySoundFrom(id, snd_jumpFlapping); // flying sound
+		}
 	}
 }
 
